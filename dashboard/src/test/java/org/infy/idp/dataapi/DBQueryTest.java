@@ -88,7 +88,7 @@ public class DBQueryTest {
 	{
 		try {
 			
-			QueryResponse temp=dbQuery.runTableQuery("appCommitsPerEngineer+TIBCO_13","ciplatform");
+			QueryResponse temp=dbQuery.runTableQuery("appCommitsPerEngineer+TIBCO_13","idposs");
 			
 			assertNotNull(temp);
 		}
