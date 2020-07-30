@@ -85,7 +85,7 @@ public class DeployTest {
 		approveBuild.setEnvName("dev");
 		approveBuild.setModuleList("module1");
 		approveBuild.setReleaseIdentifier("April2");
-		approveBuild.setUserInfo("ciplatform");
+		approveBuild.setUserInfo("userName");
 		ArrayList<ApproveBuild> listApprove = new ArrayList<>();
 		listApprove.add(approveBuild);
 		testObject.setApproveBuild(listApprove);

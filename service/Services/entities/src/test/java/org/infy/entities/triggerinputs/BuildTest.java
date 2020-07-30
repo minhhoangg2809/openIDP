@@ -95,7 +95,7 @@ public class BuildTest  {
 		appBuild.setEnvName("sit");
 		appBuild.setModuleList("module1");
 		appBuild.setReleaseIdentifier("April2");
-		appBuild.setUserInfo("ciplatform");
+		appBuild.setUserInfo("userName");
 		listBuild.add(appBuild);
 		testObject.setApproveBuild(listBuild);
 		SubModule subModule = new SubModule();

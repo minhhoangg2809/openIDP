@@ -34,13 +34,13 @@ public class ApproveBuildTest {
 		testObject.setEnvName("sit");
 		testObject.setModuleList("module1");
 		testObject.setReleaseIdentifier("April2");
-		testObject.setUserInfo("ciplatform");
+		testObject.setUserInfo("userName");
 
 		assertEquals("build1", testObject.getApprBuildNo());
 		assertEquals("sit", testObject.getEnvName());
 		assertEquals("module1", testObject.getModuleList());
 		assertEquals("April2", testObject.getReleaseIdentifier());
-		assertEquals("ciplatform", testObject.getUserInfo());
+		assertEquals("userName", testObject.getUserInfo());
 	}
 
 	@Test

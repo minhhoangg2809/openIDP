@@ -73,7 +73,7 @@ public class DeploymentBLTest {
 
 	@Test
 	public void testUpdateExistingJobs() throws Throwable {
-		String status = deploymentBL.updateExistingJobs("ciplatform");
+		String status = deploymentBL.updateExistingJobs("userName");
 		assertNotNull(status);
 	}
 

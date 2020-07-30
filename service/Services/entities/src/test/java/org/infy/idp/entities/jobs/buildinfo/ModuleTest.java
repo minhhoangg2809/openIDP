@@ -177,7 +177,7 @@ public class ModuleTest {
 		proxy.setHost("host");
 		proxy.setPassword("pwd");
 		proxy.setPort("8085");
-		proxy.setUsername("ciplatform");
+		proxy.setUsername("userName");
 
 		testedObject.setProxy(proxy);
 		testedObject.setServMachine("machine");
@@ -199,7 +199,7 @@ public class ModuleTest {
 		testedObject.setToolsRoot("root");
 		testedObject.setToolsCfg("cfg");
 		testedObject.setDataSource("source");
-		testedObject.setSiebelUserName("ciplatform");
+		testedObject.setSiebelUserName("userName");
 		testedObject.setSiebelPassword("pwd1234+");
 		testedObject.setSiebelRepo("repo");
 		testedObject.setSifImport("import");
@@ -228,7 +228,7 @@ public class ModuleTest {
 		testedObject.setIpcPassword("pwd");
 		testedObject.setIpcUserName("admin");
 		testedObject.setLogFilePath("log");
-		testedObject.setSourceUsername("ciplatform");
+		testedObject.setSourceUsername("userName");
 		testedObject.setSourcePassword("pwd1234+");
 		testedObject.setSourceUrl("url");
 		testedObject.setTimeout("timeout");
@@ -270,7 +270,7 @@ public class ModuleTest {
 		assertEquals("ut", testedObject.getHiveUT());
 		assertEquals("machine", testedObject.getServMachine());
 
-		assertEquals("ciplatform", testedObject.getSiebelUserName());
+		assertEquals("userName", testedObject.getSiebelUserName());
 		assertEquals("pwd1234+", testedObject.getSiebelPassword());
 		assertEquals("repo", testedObject.getSiebelRepo());
 		assertEquals("import", testedObject.getSifImport());
@@ -300,7 +300,7 @@ public class ModuleTest {
 		assertEquals("pwd", testedObject.getIpcPassword());
 		assertEquals("admin", testedObject.getIpcUserName());
 		assertEquals("log", testedObject.getLogFilePath());
-		assertEquals("ciplatform", testedObject.getSourceUsername());
+		assertEquals("usename", testedObject.getSourceUsername());
 		assertEquals("pwd1234+", testedObject.getSourcePassword());
 		assertEquals("url", testedObject.getSourceUrl());
 		assertEquals("timeout", testedObject.getTimeout());

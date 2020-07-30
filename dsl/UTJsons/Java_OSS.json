@@ -22,7 +22,7 @@
       "applicationTeam": "",
       "emailIds": ""
     },
-    "userName": "ciplatform",
+    "userName": "userName",
     "pipelineStatus": "edit",
     "customTriggerInterval": {
       "interval": [
@@ -40,7 +40,7 @@
             "jiraProjectKey": "",
             "charmRequests": [],
             "userStoryString": "",
-            "userName": "ciplatform",
+            "userName": "userName",
             "slaveName": "jpetslave",
             "testSlaveName": "",
             "envSelected": "",
@@ -50,7 +50,7 @@
             },
             "testSelected": "off",
             "artifactorySelected": "off",
-            "emailed": "ciplatform@infosys.com,kruti.vyas@infosys.com,hardik.rathod01@infosys.com",
+            "emailed": "userName@abc.com",
             "testStep": [],
             "technology": "J2EE/Maven",
             "repoDeployStatus": "",

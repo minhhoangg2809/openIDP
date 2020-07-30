@@ -14,7 +14,7 @@
       "applicationTeam": "",
       "emailIds": ""
     },
-    "userName": "ciplatform",
+    "userName": "userName",
     "pipelineStatus": "edit"
   },
   "code": {
@@ -24,7 +24,7 @@
       {
         "type": "git",
         "url": "http://infygit.ad.infosys.com/Sarojini_Meher/BigData_Proj_IDP.git",
-        "userName": "ciplatform",
+        "userName": "userName",
         "password": "pwd1234+",
         "repositoryBrowser": "gitLab",
         "browserUrl": "http://infygit.ad.infosys.com/",

@@ -55,7 +55,7 @@ public class DeployArtifactTest {
 		buildModuleList.add("build2");
 		buildModuleList.add("build3");
 		testedObject.setBuildModulesList(buildModuleList);
-		String userInfo = "ciplatform";
+		String userInfo = "userName";
 		testedObject.setUserInfo(userInfo);
 
 		assertEquals("version1", testedObject.getVersion()); 

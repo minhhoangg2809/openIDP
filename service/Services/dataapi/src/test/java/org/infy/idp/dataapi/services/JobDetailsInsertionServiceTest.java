@@ -411,7 +411,7 @@ public class JobDetailsInsertionServiceTest {
 
 	@Test
 	public void testAddNotification() throws Throwable {
-		testedObject.addNotification("TC1_Maven", "SUCESS", "ciplatform");
+		testedObject.addNotification("TC1_Maven", "SUCESS", "userName");
 
 	}
 
