@@ -383,7 +383,7 @@ public class JobDetailsInsertionServiceTest {
 
 	@Test
 	public void testInsertUsers() throws Throwable {
-		int result = testedObject.insertUsers("admin", "admin@infosys.com", true, 1L, "developer");
+		int result = testedObject.insertUsers("admin", "admin@abc.com", true, 1L, "developer");
 	}
 
 	@Test
