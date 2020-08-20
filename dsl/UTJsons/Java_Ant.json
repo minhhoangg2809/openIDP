@@ -22,7 +22,7 @@
       "applicationTeam": "",
       "emailIds": ""
     },
-    "userName": "ciplatform",
+    "userName": "username",
     "pipelineStatus": "edit"
   },
   "code": {
@@ -31,11 +31,11 @@
     "scm": [
       {
         "type": "git",
-        "url": "http://infygit.ad.infosys.com/CIPlatform/JPetStore_Maven.git",
+        "url": "http://git/repo.git",
         "userName": "uname",
         "password": "pwd",
         "repositoryBrowser": "gitLab",
-        "browserUrl": "http://infygit.ad.infosys.com/",
+        "browserUrl": "http://git/repo.git",
         "projectName": "",
         "branch": "master",
         "projPath": "",
@@ -126,7 +126,7 @@
               "resourceToBeDeployed": "JpetStore.war",
               "warPath": "",
               "contextPath": "",
-              "userName": "ciplatform",
+              "userName": "username",
               "password": "pwd1234+",
               "ipOrDNS": "1.2.3.4",
               "targetCellName": "blrkec411214dcell",
